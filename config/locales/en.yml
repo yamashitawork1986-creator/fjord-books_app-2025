@@ -29,3 +29,35 @@
 
 en:
   hello: "Hello world"
+  books:
+    index:
+      title: "Books"
+      show: "Show this book"
+      new: "New book"
+    activerecord:
+      attributes:
+        book:
+          title: "Title"
+          memo: "Memo"
+          author: "Author"
+          picture: "Picture"
+    helpers:
+      submit:
+        create: "Create Book"
+    new:
+      title: "New book"
+      back: "Back to books"
+    form:
+      errors: "There are %{count} errors preventing the book from being saved"
+    show:
+      edit: "Edit this book"
+      back: "Back to books"
+      destroy: "Destroy this book"
+    edit:
+      title: "Edit book"
+      show: "Show this book"
+      back: "Back to books"
+    notices:
+      created: "Book was successfully created"
+      updated: "Book was successfully updated"
+      destroyed: "Book was successfully destroyed"
