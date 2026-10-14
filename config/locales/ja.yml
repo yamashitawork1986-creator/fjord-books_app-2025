@@ -1,0 +1,39 @@
+ja:
+  notices:
+    created: "%{model}を登録しました"
+    updated: "%{model}を更新しました"
+    destroyed: "%{model}を削除しました"
+
+  activerecord:
+    models:
+      book: "書籍"
+    attributes:
+      book:
+        title: "タイトル"
+        memo: "メモ"
+        author: "著者"
+        picture: "画像"
+
+  helpers:
+    submit:
+      create: "登録する"
+
+  form:
+    errors: "%{count}件のエラーがあるため、%{model}を保存できませんでした"
+
+  books:
+    index:
+      title: "書籍一覧"
+      show: "この書籍を表示"
+      new: "新しい書籍"
+    new:
+      title: "新しい書籍"
+      back: "書籍一覧に戻る"
+    show:
+      edit: "この書籍を編集"
+      back: "書籍一覧に戻る"
+      destroy: "この書籍を削除"
+    edit:
+      title: "書籍を編集"
+      show: "この書籍を表示"
+      back: "書籍一覧に戻る"
