@@ -22,10 +22,10 @@
     <%= javascript_importmap_tags %>
   </head>
 
-<body class="<%= params[:action] %>">
-  <%= link_to "日本語", locale: :ja %>
-  <%= link_to "English", locale: :en %>
+  <body class="<%= params[:action] %>">
+    <%= link_to "日本語", locale: :ja %>
+    <%= link_to "English", locale: :en %>
 
-  <%= yield %>
-</body>
+    <%= yield %>
+  </body>
 </html>

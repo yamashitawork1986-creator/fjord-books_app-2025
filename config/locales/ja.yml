@@ -1,5 +1,26 @@
 ja:
-  hello: "こんにちは"
+  notices:
+    created: "%{model}を登録しました"
+    updated: "%{model}を更新しました"
+    destroyed: "%{model}を削除しました"
+
+  activerecord:
+    models:
+      book: "書籍"
+    attributes:
+      book:
+        title: "タイトル"
+        memo: "メモ"
+        author: "著者"
+        picture: "画像"
+
+  helpers:
+    submit:
+      create: "登録する"
+
+  form:
+    errors: "%{count}件のエラーがあるため、%{model}を保存できませんでした"
+
   books:
     index:
       title: "書籍一覧"
@@ -8,8 +29,6 @@ ja:
     new:
       title: "新しい書籍"
       back: "書籍一覧に戻る"
-    form:
-      errors: "%{count}件のエラーがあるため、書籍を保存できませんでした"
     show:
       edit: "この書籍を編集"
       back: "書籍一覧に戻る"
@@ -18,17 +37,3 @@ ja:
       title: "書籍を編集"
       show: "この書籍を表示"
       back: "書籍一覧に戻る"
-    notices:
-      created: "書籍を登録しました"
-      updated: "書籍を更新しました"
-      destroyed: "書籍を削除しました"
-  activerecord:
-    attributes:
-      book:
-        title: "タイトル"
-        memo: "メモ"
-        author: "著者"
-        picture: "画像"
-  helpers:
-    submit:
-      create: "登録する"

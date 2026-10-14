@@ -28,22 +28,51 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  notices:
+    created: "%{model} was successfully created"
+    updated: "%{model} was successfully updated"
+    destroyed: "%{model} was successfully destroyed"
+
+  activerecord:
+    models:
+      book: "Book"
+    attributes:
+      book:
+        title: "Title"
+        memo: "Memo"
+        author: "Author"
+        picture: "Picture"
+
+  helpers:
+    submit:
+      create: "Create Book"
+
+  form:
+    errors: "%{count} errors prevented %{model} from being saved"
+
   books:
     index:
       title: "Books"
       show: "Show this book"
       new: "New book"
-    activerecord:
-      attributes:
-        book:
-          title: "Title"
-          memo: "Memo"
-          author: "Author"
-          picture: "Picture"
-    helpers:
-      submit:
-        create: "Create Book"
+    new:
+      title: "New book"
+      back: "Back to books"
+    show:
+      edit: "Edit this book"
+      back: "Back to books"
+      destroy: "Destroy this book"
+    edit:
+      title: "Edit book"
+      show: "Show this book"
+      back: "Back to books"
+      create: "Create Book"
+
+  books:
+    index:
+      title: "Books"
+      show: "Show this book"
+      new: "New book"
     new:
       title: "New book"
       back: "Back to books"
@@ -57,7 +86,3 @@ en:
       title: "Edit book"
       show: "Show this book"
       back: "Back to books"
-    notices:
-      created: "Book was successfully created"
-      updated: "Book was successfully updated"
-      destroyed: "Book was successfully destroyed"
